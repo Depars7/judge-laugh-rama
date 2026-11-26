@@ -89,7 +89,9 @@ up" — "shows up" is the idiom people actually use for meetings, and
 to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`) with no
 trailing newline, chmod 0644 on the file only, then reads the file back
 and verifies the bytes match exactly. Two local runs produce
-byte-identical output (sha256 recorded below after validation).
+byte-identical output, and one run as user `nobody` (`python3 -P -s`)
+produces the same bytes (sha256
+bd8e5d066bb540f57390bdfd6a24e96d045065ee9b09545a69bbbdb0c245b266).
 
 Final line (90 characters):
 "The fire drill is the only meeting where everyone shows up on time and nobody takes notes."

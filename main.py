@@ -9,7 +9,7 @@ back and verifies the bytes match exactly.
 
 import os
 
-JOKE = "The fire drill is the only meeting everyone attends on time, and nobody takes notes."
+JOKE = "The fire drill is the only meeting where everyone shows up on time and nobody takes notes."
 
 OUTPUT_DIR = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 OUTPUT_PATH = os.path.join(OUTPUT_DIR, "entry.txt")
